@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <form action="../login page/action.html">
+        <fieldset>
+            <legend>form </legend>
+            <label for="firstname">First Name : </label>
+            <input type="text" id="firstname" placeholder="Enter your first name" required class="iw">
+            <label for="lastname">Last Name : </label>
+            <input type="text" id="lastname" placeholder="Enter your last name" required class="iw">
+            <label for="phone">Mobile Number : </label>
+            <input type="number" id="phone" placeholder="Enter your phone number " required class="iw">
+            <label for="email">Email : </label>
+            <input type="email" id="email" placeholder="Enter your email id" required class="iw">
+            <label for="number">Adhar Card</label>
+            <input type="number" id="number" placeholder="Enter Your Adhar Number" required class="iw">
+            <label for="dob">DOB</label>
+            <input type="date" id="DOB"  placeholder="Enter your date of birth" required class="iw">
+            <label for="app">Appointment Date : </label>
+            <input type="datetime-local" id="app"  placeholder="Enter date of Appointment" required class="iw">
+            <label for="gender">Gender : </label>
+            <input type="radio" id="male" name="gender" required> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" required> <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" required> <label for="other">Others</label>
+            <label for="file">Upload : </label>
+            <input type="file" id="file" placeholder="Upload your Picture" class="iw">
+            <label for="link">Link</label>
+            <input type="url" id="link" placeholder="Upload url" class="iw">
+            <label for="pass">Create Password : </label class="iw">
+            <input type="password" id="pass" placeholder="Enter your password" class="iw">
+            <!--             
+            <input type="range">
+            <input type="color">
+            <input type="submit">
+            <input type="reset"> -->
+            <!-- create dropdown -->
+            <label for="sel" class="sl">Select Country : </label>
+            <select name="sel" id="drop" class="sl">
+                <option value="" hidden>Select Options</option>
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UA</option>
+                <option value="">China</option>
+            </select>
+            <div>
+
+                <input type="checkbox" id="chb1" class="chb"><label for="chb1" class="chb">i understood terms and conditios</label>
+                <input type="checkbox" id="chb2" class="chb"><label for="chb2" class="chb">i accept the terms and conditios</label>
+            </div>
+            <!-- <input type="text" disabled> -->
+            <label for="feed">Feedback : </label>
+            <textarea name="feed" id="feed"></textarea>
+            <div id="div">
+
+                <button type="submit">submit the form</button>
+                <!-- <input type="reset"> -->
+                <button type="reset">Cancel</button>
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
